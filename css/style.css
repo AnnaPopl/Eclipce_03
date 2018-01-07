@@ -1,0 +1,129 @@
+.container{
+    width:1180px;
+    margin: auto;
+    position: relative;
+}
+
+.container:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    padding-bottom: 20px;
+    
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a{
+    font-family: 'Gotham';
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.menu li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.button1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    background: #a100ff;
+    padding: 12px; 36px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+.left-header-block, .right-header-block{
+    float: left;
+    width: 50%;
+}
+.right-header-block{
+    text-align: right;
+}
+
+
+.menu-container, .button-container{
+    display: inline-block;
+}
+
+.header{
+    padding-top: 70px;
+}
+
+/* block1 */
+
+.block1{
+    min-height: 908px;
+    background: url(../img/Fon1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block1 h2{
+    padding-top: 330px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    width: 45%;
+}
+
+.block1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color: #fff;
+    width: 47%
+}
+
+
+.block2{
+    min-height: 592px;
+    background: url(../img/Ellipse_3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -90px;
+}
+
+.block2 h3{
+    padding-top: 119px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+.block2 p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size 14px;
+}
+
+
+
+
+
