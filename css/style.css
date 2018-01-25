@@ -1,21 +1,36 @@
-.container{
-    width:1180px;
+body{
     margin: auto;
-    position: relative;
+    
 }
 
+.flex-container{
+    width: 1180px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-element{
+    box-sizing: border-box;
+}
+
+/*
 .container:after{
     content:'';
     display: block;
     clear: both;
 }
+*/
 
 .header{
     position: absolute;
     width: 100%;
     top: 0px;
+/*    left: 0px;*/
     z-index: 10;
     padding-bottom: 20px;
+    padding-top: 70px;
     
 }
 
@@ -26,7 +41,7 @@
 }
 
 .menu a{
-    font-family: 'Gotham';
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #fff;
     text-decoration: none;
@@ -49,24 +64,29 @@
     display: inline-block;
     border-radius: 3px;
     text-decoration: none;
+    width: 130px;
+    height: 50px;
     
 }
 
-.left-header-block, .right-header-block{
-    float: left;
+.flex-element-1 {
     width: 50%;
+    text-align: left;
 }
+
+.flex-element-2{
+    width: 50%;
+    text-align: right;
+}
+/*
 .right-header-block{
     text-align: right;
 }
+*/
 
 
 .menu-container, .button-container{
     display: inline-block;
-}
-
-.header{
-    padding-top: 70px;
 }
 
 /* block1 */
@@ -79,14 +99,20 @@
     background-size: cover;
 }
 
+
+
 .block1 h2{
-    padding-top: 330px;
+/*    padding-top: 330px;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 60px;
     text-transform: uppercase;
     color: #fff;
-    width: 45%;
+    width: 49%;
+}
+
+.flex-element-3{
+    padding-top: 280px;
 }
 
 .block1 p{
@@ -97,17 +123,78 @@
     width: 47%
 }
 
+.flex-container1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.button2{
+/*    background: url(http://fontawesome.io/icon/arrow-circle-o-down/);*/
+    width: 280px;
+    height: 56px;
+    border-radius: 5px;
+    
+}
+
+.button3{
+    width: 270px;
+    height: 56px;
+    border-radius: 5px;
+}
+
+.button4{
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    background: #28c8c6;
+    border-radius: 5px;
+}
+
+.arrow1{
+    position: absolute;
+    font-size: 40px;
+    color: #96a5b4;
+    margin: auto;    
+    margin-top: -20px;
+
+}
+
 
 .block2{
     min-height: 592px;
     background: url(../img/Ellipse_3.png);
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: -90px;
+    margin-top: -50px;
 }
 
-.block2 h3{
+.arrow2{
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    border-radius: 100%;
+    background: #28c8c6;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -56px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.arrow2 i{
+    text-align: center center;
+}
+
+.flex-element-4{
+    width: 100%;
+}
+
+.flex-element-4 h3{
     padding-top: 119px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -116,13 +203,64 @@
     text-align: center;
 }
     
-.block2 p{
+ p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: medium;
     font-size 14px;
+    line-height: 25px;
 }
 
+/*block-3*/
+.block-3{
+    min-height: 775px;
+}
+
+.flex-element-5{
+    width: 100%;
+    padding-top: 160px;
+    
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.flex-element-6{
+    width: 25%;
+    align-items: center;
+/*    margin: auto;*/
+}
+
+.ico{
+    width: 100%;
+}
+
+.ico-1{
+    width: 135px;
+    height: 135px;
+    background: #8500d2;
+    border-radius: 100%;
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
 
 
 
